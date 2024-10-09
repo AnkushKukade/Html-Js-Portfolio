@@ -58,3 +58,20 @@ a:hover{
     cursor: default;
 }
  
+#hamburger-nav{
+    display: none;
+
+}
+.hamberger-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamberger-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width:30px;
+    cursor: pointer;
+}
